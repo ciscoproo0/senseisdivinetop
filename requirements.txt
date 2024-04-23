@@ -4,3 +4,4 @@ python-dotenv
 Flask
 flask-cors
 PyJWT
+gunicorn
