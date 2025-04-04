@@ -1,21 +1,17 @@
-# Sensei's Divining Top
+# Sensei's Divine Top - Node.js Version
 
-## Description
-Sensei's Divining Top is a data integration microservice designed to facilitate interaction with the Magic: The Gathering API. It provides a simplified interface for querying and manipulating card data from the game, enabling developers and MTG enthusiasts to customize returned data and efficiently integrate with front-ends and other services.
+Este é o repositório do microserviço Sensei's Divine Top, reescrito em Node.js usando Express.
 
-## Features
-- Card data querying based on name with pagination support.
-- Results caching using Redis for enhanced performance.
-- Support for JWT authentication (planned for future releases).
-
-## How to Use
-### Prerequisites
-- Python 3.x
-- Flask
+## Tecnologias
+- Node.js
+- Express
 - Redis
+- JSON Web Tokens (JWT)
+- Dotenv
 
-### Setup
-1. Clone the repository:
+## Como Rodar
+
+1. Instale as dependências:
+
 ```bash
-git clone [REPOSITORY_URL]
-cd [REPOSITORY_NAME]
+npm install
